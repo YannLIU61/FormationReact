@@ -3,6 +3,7 @@ import './App.css';
 import MyCar from "./components/MyCar"
 import Display from './components/Display'
 import Form from './components/Form'
+import ParentComponent from './components/ParentComponent'
 
 class App extends Component {
   // pass title
@@ -32,7 +33,6 @@ class App extends Component {
       titre: e.target.value
     })
   }
-
   render() {
     return (
       <div className="App">
@@ -49,6 +49,7 @@ class App extends Component {
         <Display />
         <br /><br />
         <Form />
+        <ParentComponent/>
       </div>
     );
   }

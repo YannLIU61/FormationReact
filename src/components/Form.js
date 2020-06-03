@@ -1,3 +1,5 @@
+// rce ->un racourci VS Code Create a react class component
+// JavaScript ES6 code snippets
 import React, { Component } from 'react'
 import styled from 'styled-components'
 
